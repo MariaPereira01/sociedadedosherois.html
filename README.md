@@ -4,7 +4,7 @@ Este projeto é um site desenvolvido para atividade final de Introdução a Web(
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 ### Layout Completo
 - Menu horizontal fixo
@@ -35,7 +35,7 @@ Este projeto é um site desenvolvido para atividade final de Introdução a Web(
   - **Montserrat** (títulos)
 
 ### **Ícones**
-- Google Material Symbols (ex: ícone de filme “movie”)
+- Google Material Symbols 
 
 ---
 
