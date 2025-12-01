@@ -1,4 +1,3 @@
-alert("Seja bem-vindo ao nosso site, jovem padawan!");
 function enviarWhatsApp() {
     const nome = document.getElementById("nome").value;
     const mensagem = document.getElementById("mensagem").value;
@@ -8,3 +7,4 @@ function enviarWhatsApp() {
 
     window.open(url, "_blank");
 }
+
