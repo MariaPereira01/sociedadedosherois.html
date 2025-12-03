@@ -7,4 +7,3 @@ function enviarZapZap() {
 
     window.open(url, "_blank");
 }
-
