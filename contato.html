@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Contato</title>
@@ -11,54 +12,59 @@
 <body>
 
     <nav id="menu-horizontal">
-    <ul>
-        <li>
-        <a href="index.html">
-            Home
-        </a>
-        </li>
-    <li><a href="filmes.html">Filmes</a></li>
+        <ul>
+            <li>
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+            <li><a href="filmes.html">Filmes</a></li>
 
-    <li><a href="curiosidades.html">Curiosidades</a></li>
+            <li><a href="curiosidades.html">Curiosidades</a></li>
 
-    <li><a href="critiicas.html">Críticas</a></li>
-    
-    <li><a href="contato.html">Contato</a></li>
+            <li><a href="critiicas.html">Críticas</a></li>
 
-   <li class="sociedade">
-    <a href="#">
-        <span class="material-symbols-outlined">movie</span>
-        Sociedade dos Heróis
-    </a>
-</li>
-</ul>
-</nav>
+            <li><a href="contato.html">Contato</a></li>
 
-<header id="header2">
-    <div>
-   <h1>Contato</h1>
-    <p>agora nos diga sua opinião!</p>
+            <li class="sociedade">
+                <a href="#">
+                    <span class="material-symbols-outlined">movie</span>
+                    Sociedade dos Heróis
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <header id="header2">
+        <div>
+            <h1>Contato</h1>
+            <p>agora nos diga sua opinião!</p>
+        </div>
+    </header>
+
+    <section class="caixacontatos">
+        <h2 id="titulo3">Envie sua mensagem</h2>
+
+        <form>
+            <label><b>Seu nome:</b></label><br>
+            <input type="text" id="nome"><br><br>
+
+            <label><b>Digite aqui:</b></label><br>
+            <textarea id="mensagem"></textarea><br><br>
+
+            <button id="BOTAO" type="button" onclick="enviarZapZap()">Enviar via WhatsApp</button>
+        </form>
+    </section>
+
+    <div class="selecao1">
+        <a href="./outros.html/sobre.html">Conheça os Críticos</a>
     </div>
-</header>
 
-<section>
-    <h2>Envie uma mensagem</h2>
-
-    <form onsubmit="event.preventDefault(); enviarWhatsApp();">
-        <label>Nome:</label><br>
-        <input type="text" id="nome" required><br><br>
-
-        <label>Digite aqui sua mensagem:</label><br>
-        <textarea id="mensagem" required></textarea><br><br>
-
-        <button id="BOTAO" type="button" onclick="enviarZapZap()">Enviar via WhatsApp</button>
-    </form>
-</section>
-
-<footer>
-<p>© 2025 – Sociedade dos Heróis</p>
-    <p>Todos os direitos reservados</p>
-</footer>
+    <footer>
+        <p>© 2025 – Sociedade dos Heróis</p>
+        <p>Todos os direitos reservados</p>
+    </footer>
 
 </body>
+
 </html>
